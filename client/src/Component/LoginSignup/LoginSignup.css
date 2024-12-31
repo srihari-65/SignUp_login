@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 400px; /* Reduced width */
+    background: #fff;
+    padding: 20px; /* Reduced padding */
+    border-radius: 8px; /* Added a subtle border-radius for better aesthetics */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Added a shadow for better visibility */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Reduced gap */
+    width: 100%;
+    margin-top: 10px; /* Reduced margin */
+}
+
+.text {
+    color: #3c009d;
+    font-size: 32px; /* Reduced font size */
+    font-weight: 700;
+}
+
+.underline {
+    width: 50px; /* Reduced width */
+    height: 4px; /* Reduced height */
+    background: #3c009d;
+    border-radius: 2px;
+}
+
+.inputs {
+    margin-top: 30px; /* Reduced margin */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Reduced gap */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%; /* Adjusted width to fit the container */
+    height: 50px; /* Reduced height */
+    background: #eaeaea;
+    border-radius: 4px; /* Reduced border-radius */
+}
+
+.input input {
+    height: 30px; /* Reduced height */
+    width: calc(100% - 20px); /* Adjusted width */
+    margin: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px; /* Reduced font size */
+}
+
+.forget-password {
+    padding-left: 10px; /* Reduced padding */
+    margin-top: 10px; /* Reduced margin */
+    color: #797979;
+    font-size: 14px; /* Reduced font size */
+}
+
+.forget-password span {
+    color: #4c00b4;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 15px; /* Reduced gap */
+    margin: 30px auto; /* Reduced margin */
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Reduced width */
+    height: 40px; /* Reduced height */
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 20px; /* Adjusted border-radius */
+    font-size: 14px; /* Reduced font size */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #EAEAEA;
+    color: #676767;
+}
